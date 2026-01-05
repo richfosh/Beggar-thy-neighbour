@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Strip Jack Naked</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Strip Jack Naked</h2>
+        <div id="turn-counter">Total Turns: 0</div>
+        <div id="status">Press Start</div>
+        <button id="action-btn">Start Game</button>
+        <div class="game-board">
+            <div class="column">
+                <div class="count">P1: <span id="p1-count">26</span></div>
+                <div id="p1-hand" class="pile"></div>
+            </div>
+
+            <div class="column">
+                <div class="count">Pile: <span id="pile-count">0</span></div>
+                <div id="center-pile" class="pile"></div>
+            </div>
+
+            <div class="column">
+                <div class="count">P2: <span id="p2-count">26</span></div>
+                <div id="p2-hand" class="pile"></div>
+            </div>
+        </div>
+
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
